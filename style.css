@@ -1,0 +1,251 @@
+/* baskervville-regular - latin */
+@font-face {
+    font-family: 'Baskervville';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.ttf') format('woff2'), /* Super Modern Browsers */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.woff') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/baskervville-v13-latin/baskervville-v13-latin-regular.svg#Baskervville') format('svg'); /* Legacy iOS */
+  }
+
+  /* inika-regular - latin */
+@font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/inika-v21-latin/inika-v21-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/inika-v21-latin/inika-v21-latin-regular.svg#Inika') format('svg'); /* Legacy iOS */
+  }
+
+  /* iceland-regular - latin */
+@font-face {
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/iceland-v16-latin/iceland-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/iceland-v16-latin/iceland-v16-latin-regular.svg#Iceland') format('svg'); /* Legacy iOS */
+  }
+
+  /* homenaje-regular - latin */
+@font-face {
+    font-family: 'Homenaje';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/homenaje-v16-latin (1)/homenaje-v16-latin-regular.svg#Homenaje') format('svg'); /* Legacy iOS */
+  }
+
+body{
+    background-color:#dbfeb8 !important;
+}
+.navbar{
+    background-color:#132a13;
+    border-bottom: 1vw solid #220901;
+}
+
+.nav-brand{
+    text-decoration:none;
+    font-size: 2.1rem;
+    font-weight:bolder;
+    line-height: 1.5em;
+    letter-spacing:5px;
+    font-family:'Courier New', Courier, monospace;
+
+    padding-top:0.1px;
+    margin-left:1vw;
+}
+
+.nav-item{
+    padding-top:5px;
+
+    border-right:2.5px solid black;
+
+
+    font-family:'Courier New', Courier, monospace; 
+
+    cursor:grab;
+}
+
+.redesign_image{
+    width:4vw;
+    height:4vw;
+    margin-right:1vw;
+    opacity:0.15;
+}
+
+.intro_divider{
+    margin-top:5vw;
+    min-height:65vh;
+    border:3vw solid white;
+    background-image: radial-gradient( #9ef01a,#132a13) !important; 
+}
+
+.welcome_title{
+    position:absolute;
+    left: 35.7vw;;
+    top: 18.5vw;
+    width: 555px;
+    height: 200px;
+    z-index: 2;
+    color:#00043a;
+    font-weight:bold;
+
+}
+
+.about_divider{
+    font-family: 'Spectral';
+    margin-top:5vw;
+}
+
+.gates_divider{
+    margin-left:4.5vw;
+    margin-bottom:1.5vw;
+}
+
+.gate_image{
+    height:3vw;
+    width:18vw;
+}
+
+h1{
+    font-family: 'Inika';
+    text-align:center;
+    color:#240046;
+}
+
+h2{
+   
+    text-align:center;
+    /* font-family: 'Homenaje'; */
+    font-family: 'Baskervville';
+}
+
+h3{
+    font-family: 'Iceland';
+    text-align:center;
+}
+
+.ul{
+    width:70%;
+
+    text-align: justify;
+
+    margin:auto !important ;
+    font-size:1.5vw;
+    font-family: 'Homenaje' !important;
+}
+
+.chosen_divider{
+    margin-top:2vw;
+}
+
+.issues_image{
+    width: 60vw;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    /* margin-left:3vw; */
+    /* margin:auto !important; */
+    margin-left:4.5vw;
+    
+}
+
+.col_1{
+    width:70vw;
+    height:30vw;
+    border:9px solid #b7ffd8 !important;
+    
+
+}
+
+.accesibility_image{
+    height:25vw;
+    width:20vw;
+    margin-left:8.5vw;
+    
+}
+
+.col_2{
+    width:40vw;
+    height:30vw;
+    border:9px solid #b7ffd8 !important;
+}
+
+.phone_image{
+    height:35vw;
+    width:50vw;
+    margin-left:4.5vw;
+    
+}
+
+.col_3{
+    width:60vw;
+    height:42vw;
+    border:9px solid #b7ffd8 !important;
+}
+
+.tablet_image{
+    height:35vw;
+    width:50vw;
+    margin-left:4.5vw;
+}
+
+.website_image{
+    height:35vw;
+    width:50vw;
+    margin-left:4.5vw;
+}
+
+.style_image{
+    height:35vw;
+    width:45vw;
+    margin-left:6.5vw;
+    margin-top:1vw;
+
+}
+
+.col_4{
+    width:60vw;
+    height:42vw;
+    border:9px solid #b7ffd8 !important;
+}
+
+.phone_frame{
+    height:40vw;
+    margin-left:17.5vw;
+}
+
+.col_5{
+    width:60vw;
+    height:45vw;
+    border:9px solid #b7ffd8 !important;
+}
+
+.tablet_frame{
+    width:35vw;
+    margin-left:13.5vw;
+}
+
+.col_6{
+    width:60vw;
+    height:52vw;
+    border:9px solid #b7ffd8 !important;
+}
