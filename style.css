@@ -59,7 +59,7 @@ body{
 }
 .navbar{
     background-color:#132a13;
-    border-bottom: 1vw solid #220901;
+    border-bottom: 1vw solid #111d13;
 }
 
 .nav-brand{
@@ -101,7 +101,7 @@ body{
 
 .welcome_title{
     position:absolute;
-    left: 35.7vw;;
+    left: 31vw;;
     top: 18.5vw;
     width: 555px;
     height: 200px;
@@ -129,7 +129,7 @@ body{
 h1{
     font-family: 'Inika';
     text-align:center;
-    color:#240046;
+    color:#38040e;
 }
 
 h2{
